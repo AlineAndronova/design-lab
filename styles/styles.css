@@ -1,0 +1,235 @@
+.ba-container {
+	width: 900px;
+}
+
+.ba-wrapper {
+	border: 2px solid #3c3c3c;
+	border-top: none;
+	position: relative;
+}
+
+.ba-wrapper:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 2px;
+	background-color: #3c3c3c;
+}
+
+.ba-wrapper:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 240px;
+	height: 2px;
+	background-color: #3c3c3c;
+}
+
+.ba-wrapper--light {
+	border-color: #fff;
+	color: #ffffff;
+}
+
+.ba-wrapper--light:before {
+	background-color: #fff;
+}
+
+.ba-wrapper--light:after {
+	background-color: #fff;
+}
+
+.ba-section-title {
+	line-height: 1;
+	font-size: 34px;
+	letter-spacing: .16em;
+	text-transform: uppercase;
+	margin: 0 0 50px;
+	transform: translateY(-50%);
+}
+
+p {
+	margin: 0 0 25px;
+}
+
+.ba-home {
+	width: 1920px;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.8;
+	color: #626262;
+	text-align: center;
+}
+
+/* styles for .ba-hero */
+
+.ba-hero {
+	background: url(../images/hero-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 285px 0 115px;
+}
+
+.ba-logo {
+	display: inline-block;
+	margin-bottom: 39px;
+}
+
+.ba-site-title,
+.ba-site-description {
+	width: 600px;
+	text-transform: uppercase;
+}
+
+.ba-site-title {
+	font-size: 54px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.16em;
+	line-height: 1.3;
+	margin: 39px auto 20px;
+}
+
+.ba-site-description {
+	font-zise: 15px;
+	line-height: 1.73;
+	letter-spacing: 0.06em;
+	margin: 20px auto 120px;
+	color: #dbe0e8;
+}
+
+.ba-scroll {
+	display: inline-block;
+	margin-top: 120px;
+	transition: opacity .2s ease-in;
+}
+
+.ba-scroll:hover {
+	opacity: .6;
+}
+
+/* styles for .ba-about */
+
+.ba-about {
+	padding: 145px 0 170px;
+	color: #3c3c3c;
+}
+
+.ba-section-title {
+	font-weight: 700;
+}
+
+/* styles for .ba-services */
+
+.ba-services {
+	padding: 115px 0 110px;
+	background: url(../images/services.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+/* .ba-what */
+
+.ba-what {
+	padding: 105px 0 115px;
+}
+
+.ba-what__item {
+	margin-bottom: 75px;
+}
+
+.ba-what__title {
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: .16em;
+	text-transform: uppercase;
+	margin: 38px 0 30px;
+}
+
+/* .ba-portfolio */
+
+.ba-portfolio__item {
+	position: relative;
+	transition: opacity .3s cubic-bezier(0.15, 0.54, 1, 0.5);
+}
+
+.ba-portfolio__item:hover {
+	opacity: 0.5;
+}
+
+.ba-portfolio__item--image {
+	width: 100%;
+	height: 250px;
+}
+
+.ba-portfolio__item--image-middle {
+	width: 800px;
+}
+
+.ba-portfolio__item--name {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 45px;
+	padding: bottom: 40px;
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+/* .ba-contact */
+
+.ba-contact {
+	padding: 130px 0 60px;
+}
+
+.ba-button {
+	width: 395px;
+	height: 60px;
+	margin: 40px 0 50px;
+	background-color: #3c3c3c;
+	color: #fff;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.16em;
+	cursor: pointer;
+	border: 2px solid #3c3c3c;
+	transition: .2s ease-in;
+}
+
+.ba-button:hover {
+	background-color: #fff;
+	color: #3c3c3c;
+}
+
+/* .ba-footer */
+
+.ba-footer {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.ba-centered {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.ba-logo--dark,
+.ba-copyright {
+	display: inline-block;
+}
+
+.ba-copyright {
+	font-family: "Lato Regular", sans-serif;
+	font-weight: 14px;
+	color: #3c3c3c;
+	padding: 0 30px;
+	vertical-align: middle;
+}
